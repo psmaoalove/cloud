@@ -13,8 +13,7 @@
 name: Build and Deploy to GKE
 
 on:
-  release:
-    types: [created]
+  page_build:
 
 jobs:
   setup-build-publish-deploy:
